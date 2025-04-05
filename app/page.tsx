@@ -1,11 +1,9 @@
 import { ProfileCard } from "@/src/components/profile-card";
-import { Button } from "@/src/components/ui/button";
 import { Input } from "@/src/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/src/components/ui/select";
 import { Separator } from "@/src/components/ui/separator";
 import { profiles } from "@/src/lib/data";
 import { Search } from "lucide-react";
-import Link from "next/link";
 
 export default function Home() {
   return (
